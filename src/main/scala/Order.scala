@@ -1,6 +1,7 @@
 object Order {
 
-  def descendingOrder(num: Int): Int = -1
+  def descendingOrder(num: Int): Int =
+    num.toString.sorted.reverse.toInt
 
 }
 
